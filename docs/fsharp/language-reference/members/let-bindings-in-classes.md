@@ -1,7 +1,7 @@
 ---
 title: let Bindings in Classes
 description: Learn how to define private fields and private functions for F# classes by using 'let' bindings in the class definition.
-ms.date: 05/16/2016
+ms.date: 12/08/2019
 ---
 # let Bindings in Classes
 
@@ -10,10 +10,10 @@ You can define private fields and private functions for F# classes by using `let
 ## Syntax
 
 ```fsharp
-// Field.
-[static] let [ mutable ] binding1 [ and ... binding-n ]
+// Private let-bound function or value
+[static] let [ mutable ] binding1
 
-// Function.
+// Privat let-bound function or value
 [static] let [ rec ] binding1 [ and ... binding-n ]
 ```
 
